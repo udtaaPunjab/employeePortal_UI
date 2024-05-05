@@ -1,0 +1,9 @@
+This is a single page app, so while going from one page to another we won't refresh the page again and again instead we will use components that will render on the same page.
+
+So to make this frontend
+First thing to create all the components required for different pages. These will be the parent components for each page.
+After do the routing in the <app>.
+We can also navigate from one comp to other using useNaviagte().
+If something is going to be changed dynamically on the screen we use them as useState();
+useEffect() is used mainly to do some pre work when a page is loaded, like to call some api to fetch the data.
+Then to send data from one component to other we can use props mainly child parent relation or we can use useLocation().state
